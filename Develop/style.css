@@ -38,6 +38,15 @@ textarea{
   border-radius: 15px;
 }
 
+.cell-save {
+  border: 3px solid pink;
+}
+
+textarea {
+  height: 50px;
+  width: 200px;
+  border: 3px solid pink;
+}
 .row {
   white-space: pre-wrap;
   height: 80px;
