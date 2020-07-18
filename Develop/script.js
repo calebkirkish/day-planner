@@ -6,7 +6,27 @@
     // when a user saves add the data to the object and set it in local storage again
 
 
-    $("#9am").on("click", function(){
-        console.log("Hello");
-        console.log($("#9am-text").val())
-    })
+    $(".cell-save").on("click", function(){
+        // $(this) = button
+        var time = $(this).attr('id');
+        console.log(time);
+// id =`${time}-text`   or time + "-text"  inputID = textarea id
+        var inputID = '#' + time + "-text";
+        var textInput = $(inputID).val();
+        console.log(inputID);
+        console.log(textInput);
+        // localStorage.setItem(key, value) so inputID = key, textInput = value
+        window.localStorage.setItem(inputID, textInput);
+
+    });
+
+    $(".cell-info").each(function () {
+        //$(this) = textarea((
+        //console.log($(this));
+        var key ="#" + $(this).children().attr('id');
+        
+        var value = window.localStorage.getItem(key);
+        $(key).text(value);
+        console.log(key);
+        console.log(value);
+    });
