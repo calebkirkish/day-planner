@@ -7,15 +7,13 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
+
 textarea{
   background: transparent;
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
 }
 
 .jumbotron {
@@ -30,6 +28,28 @@ textarea{
   white-space: pre-wrap;
 }
 
+.cell-time, .cell-save {
+  border: 3px solid pink;
+  height: 50px;
+  width: 10%;
+}
+
+.cell-info {
+  border: 3px solid pink;
+  height: 50px;
+  width: 80%;
+  text-align: left;
+}
+
+.planner-block table {
+  width: 100%;
+  text-align: center;
+}
+
+.schedule-slot {
+width: 80%;
+}
+
 .time-block{
   display: flex;
   justify-content: center;
@@ -42,11 +62,6 @@ textarea{
   border: 3px solid pink;
 }
 
-textarea {
-  height: 50px;
-  width: 200px;
-  border: 3px solid pink;
-}
 .row {
   white-space: pre-wrap;
   height: 80px;
@@ -87,13 +102,13 @@ textarea {
   transition: all .3s ease-in-out;
 }
 
-table {
+/* table {
   border-collapse: collapse;
-}
+} */
 
-td, th {
+th {
   height: 5rem;
   width: 10rem;
   text-align: center;
-
 }
+
