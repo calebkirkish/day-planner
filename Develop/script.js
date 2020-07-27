@@ -7,6 +7,7 @@
 
     let now = moment();
     console.log(now.format());
+    
     // When I click on the cell-save cell do this:
     $(".cell-save").on("click", function(){
         // $(this) = button

@@ -102,9 +102,9 @@ width: 80%;
   transition: all .3s ease-in-out;
 }
 
-/* table {
+table {
   border-collapse: collapse;
-} */
+}
 
 th {
   height: 5rem;
