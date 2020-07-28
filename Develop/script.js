@@ -4,8 +4,9 @@
 // If it isnt then set set it and creat a new object with empty strings
 // when a user saves add the data to the object and set it in local storage again
 
-let now = moment();
+var now = moment();
 console.log(now.format());
+
 
 // When I click on the cell-save cell do this:
 $(".cell-save").on("click", function () {
@@ -56,3 +57,5 @@ function checkTime() {
         }
     });
 }
+var currentDate = now.format("dddd, MMMM Do YYYY");
+    $("#currentDay").text(currentDate);
