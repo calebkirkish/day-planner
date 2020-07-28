@@ -1,5 +1,14 @@
 # Unit 05 Third-Party APIs Homework: Day Planner
 
+Deployed Link: https://calebkirkish.github.io/day-planner/
+
+![alt text](https://github.com/calebkirkish/day-planner/blob/master/Assets/day-planner.jpg)
+
+OBJECTIVE
+I created a website that is able to take the time using moment.js to manipulate a day planner for people to save important times for anything that like to keep track of so they can be as organized as possible. This assignment used a lot of Jquery to point at different classes and ID's to help minimize the amount of code you need to do something fairly simple. We also used a lot of formatting with moment.js to understand how many different formats they have. then we added classes to preexisting classes depending on the time to show the distinct time it was so we didn't accidentally add an appointment to a time that has already expired. Then we created some elements to save this to localstorage so that when we refresh the page the data is still intact and not discarded.
+
+
+
 Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery and/or native JavaScript.
 
 The app should display standard business hours (9 a.m. to 5 p.m.). Each time slot should represent one hour and contain the following:
