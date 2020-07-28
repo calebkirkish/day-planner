@@ -17,6 +17,7 @@ textarea{
   color: #000000;
   width: 100%;
   max-width:100%;
+  background-color: inherit;
 }
 
 .jumbotron {
@@ -29,6 +30,10 @@ textarea{
 
 .description{
   white-space: pre-wrap;
+}
+
+.cell-time {
+  background-color: lavenderblush;
 }
 
 .cell-time, .cell-save {
@@ -53,7 +58,6 @@ textarea{
 }
 
 .schedule-slot {
-  border-radius: 15px;
   width: 80%;
 }
 
@@ -62,11 +66,12 @@ textarea{
   justify-content: center;
   align-items: center;
   text-align: center;
-
+  border-radius: 15px;
 }
 
 .cell-save {
   border: 3px solid pink;
+  background-color: khaki;
 }
 
 .row {
