@@ -75,6 +75,10 @@ textarea{
   cursor: pointer;
 }
 
+.cell-save:hover{
+  background-color: rgb(133, 121, 19);
+}
+
 .row {
   white-space: pre-wrap;
   height: 80px;
