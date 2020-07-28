@@ -7,6 +7,7 @@ body {
 .container {
   display: flex;
   justify-content: center;
+  background-color: #2038a5;
 }
 
 
@@ -34,6 +35,7 @@ textarea{
   border: 3px solid pink;
   height: 50px;
   width: 10%;
+  font-weight: bolder;
 }
 
 .cell-info {
@@ -42,6 +44,7 @@ textarea{
   height: 50px;
   width: 80%;
   text-align: left;
+  padding: none;
 }
 
 .planner-block table {
@@ -50,7 +53,8 @@ textarea{
 }
 
 .schedule-slot {
-width: 80%;
+  border-radius: 15px;
+  width: 80%;
 }
 
 .time-block{
@@ -58,7 +62,7 @@ width: 80%;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 15px;
+
 }
 
 .cell-save {
