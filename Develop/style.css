@@ -9,11 +9,13 @@ body {
   justify-content: center;
 }
 
+
 textarea{
-  background: transparent;
   border: none;
   resize: none;
   color: #000000;
+  width: 100%;
+  max-width:100%;
 }
 
 .jumbotron {
@@ -35,6 +37,7 @@ textarea{
 }
 
 .cell-info {
+  align-items: center;
   border: 3px solid pink;
   height: 50px;
   width: 80%;
